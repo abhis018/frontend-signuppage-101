@@ -1,0 +1,63 @@
+body {
+    background: url(C:\Users\abhis\OneDrive\Desktop\INTRO-COMPONENT-WITH-SIGNUP-FORM-MASTER\images\Red+Background@2x.png), hsl(0, 100%, 74%);
+}
+
+form {
+    border-radius: 8px;
+    border-width: thin;
+    width:fit-content;
+    height:fit-content;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 3px 3px rgb(156, 72, 72);
+}
+
+input {
+    margin: 10px;
+    width: 300px;
+    height: 35px;
+    border-radius: 3px;
+    border-width: thin;
+}
+
+button {
+    border-radius: 5px;
+    border-width: thin;
+    height: 30px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.grid-container {
+    display: flex;
+}
+
+.grid-item1 {
+    flex: 50%;
+    margin: 50px;
+    padding-left: 90px;
+    position: relative;
+    top: 110px;
+    left: 30px;
+}
+.grid-item2 {
+    flex: 50%;
+    margin: 50px;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+}
